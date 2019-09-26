@@ -9,6 +9,35 @@ body {background-color: black;
     padding:0;
     font-family: 'Open Sans', sans-serif;}
 
+    .wrap { max-width:673px; 
+      border: solid 1px white;
+      margin-left: auto;
+      margin-right: auto;
+      color: white;
+    
+  } 
+
+
+
+
+/* Header */
+.l-head {width: 100%;
+position: relative;
+height: 48px;
+text-align: center}
+
+.l-back {position: absolute; left: 0; top: 12px}
+
+.l-logo {  width: 175px; height: 43px;
+  border: solid 1px white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+/* /Header */
+
+
+
+
 
 
 
