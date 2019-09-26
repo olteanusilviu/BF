@@ -83,12 +83,18 @@ font-size: 16px;
 
 
 }
-
-
 /* /Form */
 
+/* Forgot password */
+.l-button1 {margin-top:18px; margin-bottom:18px}
+.l-button2 {color: white;
+font-size: 14px;
+font-weight: 600;
+text-transform: uppercase;
 
+padding: 14px}
 
+/* /Forgot password */
 
 
 /* Ripple effect */
