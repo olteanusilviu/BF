@@ -10,16 +10,11 @@ body {background-color: black;
     font-family: 'Open Sans', sans-serif;}
 
     .wrap { max-width:673px; 
-      border: solid 1px white;
+  
       margin-left: auto;
       margin-right: auto;
-     
-      color: white;
-    
+      color: white;    
   } 
-
-
-
 
 /* Header */
 .l-head {width: 100%;
@@ -98,25 +93,29 @@ padding: 14px}
 /* /Forgot password */
 
 /* Footer */
-.l-footer {border-top: solid 1px #B3B3B3; height: 48px; text-align: center}
+.l-footer {border-top: solid 1px #B3B3B3; height: 56px; text-align: center}
 
-.l-footer-container {width:220px; 
-  
-  margin-left: auto;
-  margin-right: auto;  }
 
+
+
+.l-footer-container {display: flex;
+  align-items: center;
+  justify-content: center;}
+
+
+.l-footer-container-circle {border: solid 1px white; 
+  border-radius: 50px; width: 36px; height:36px; 
+  float: left; margin-right: 16px;
+margin-top:16px }
 
 /* /Footer */
-
-.l-footer-container-circle {border: solid 1px white; border-radius: 50px; width: 36px; height:36px; float: left; margin-right: 16px; margin-top:16px}
-
-
 
 
 /* Ripple effect */
 .ripple {
     background-position: center;
     transition: background 0.8s;
+    cursor: pointer;
   }
   .ripple:hover {
     background: #000000 radial-gradient(circle, transparent 1%, #000 1%) center/15000%;
@@ -131,6 +130,7 @@ padding: 14px}
 
   /* Ripple effect */
 .ripple2 {
+  cursor: pointer;
     background-position: center;
     transition: background 0.8s;
   }
