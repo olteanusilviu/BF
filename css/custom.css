@@ -79,9 +79,8 @@ font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
   cursor: pointer; 
-
-
 }
+
 /* /Form */
 
 /* Forgot password */
@@ -97,11 +96,14 @@ padding: 14px}
 /* /Forgot password */
 
 /* Footer */
-.l-footer {border-top: solid 1px #B3B3B3; height: 48px}
+.l-footer {border-top: solid 1px #B3B3B3; height: 48px; text-align: center}
+
+.l-footer-container {  }
+
 
 /* /Footer */
 
-
+.l-footer-container-circle {border: solid 1px white; border-radius: 50px; width: 36px; height:36px;}
 
 
 
