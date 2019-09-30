@@ -38,6 +38,10 @@ text-align: center;
 @media (max-width: 673px) {    
   .login-h1 {font-size: 18px; margin: 32px 0 16px 0}
   .login-p1 {font-size: 14px;}
+
+
+
+  
 }
 
 /* Tabs */
