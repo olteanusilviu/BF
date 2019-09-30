@@ -3,21 +3,116 @@
 
 body {background-color: black;
     color: white;
-
-
     margin:0 16px 0 16px;
     padding:0;
     font-family: 'Open Sans', sans-serif;}
 
+    .wrap { max-width:673px; 
+      margin-left: auto;
+      margin-right: auto;
+      color: white;    
+  } 
+
+/* Header */
+.l-head {width: 100%;
+position: relative;
+height: 48px;
+text-align: center;
+}
+
+.l-back {position: absolute; left: 0; top: 12px; cursor: pointer; }
+.l-logo {  width: 175px; height: 36px; margin-top:17px;
+  border: solid 1px white;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+/* /Header */
+
+
+/* Mid */
+.login-h1 {font-size: 20px; text-align: center; font-weight: 600; margin: 64px 0 16px 0}
+.login-p1 {font-size: 16px; text-align: center; font-weight: 400; margin: 16px 0 32px 0}
+
+@media (max-width: 673px) {    
+  .login-h1 {font-size: 18px; margin: 32px 0 16px 0}
+  .login-p1 {font-size: 14px;}
+}
+
+/* Tabs */
+.tabs {width:100%; height: 48px; border-bottom: solid 1px #B3B3B3; font-size: 14px; text-transform: uppercase; font-weight: 600 }
+.tabs-selected { border-bottom: solid 2px white; height:48px; width: 50%; float: left; text-align:center; cursor: pointer; }
+.tabs-notselected {color: #B3B3B3; height:48px; width: 50%; float: left; text-align: center; cursor: pointer;  }
+.push {margin-top: 14px;}
+/* /Tabs */
 
 
 
+/* Form */
+.l-input {width: 100%;
+height: 48px;
+margin-top: 24px;
+color: white;
+background: black;
+border: solid 1px white;
+border-radius: 4px;
+font-size: 16px;
+box-sizing: border-box;
+padding-left: 16px;
+}
+
+.l-button {
+  width: 100%;
+  height: 48px;
+  margin-top: 24px;
+  color: black;
+  background: white;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer; 
+}
+
+/* /Form */
+
+/* Forgot password */
+.l-button1 {margin-top:18px; margin-bottom:18px}
+.l-button2 {color: white;
+font-size: 14px;
+font-weight: 600;
+text-transform: uppercase;
+text-decoration: none;
+cursor: pointer; 
+padding: 14px}
+
+/* /Forgot password */
+
+/* Footer */
+.l-footer {border-top: solid 1px #B3B3B3; height: 56px; text-align: center}
+
+
+
+
+.l-footer-container {display: flex;
+  align-items: center;
+  justify-content: center;}
+
+
+.l-footer-container-circle {border: solid 1px white; 
+  border-radius: 50px; width: 36px; height:36px; 
+  float: left; margin-right: 16px;
+margin-top:16px }
+
+/* /Footer */ 
 
 
 /* Ripple effect */
 .ripple {
     background-position: center;
     transition: background 0.8s;
+    cursor: pointer;
   }
   .ripple:hover {
     background: #000000 radial-gradient(circle, transparent 1%, #000 1%) center/15000%;
@@ -29,8 +124,10 @@ body {background-color: black;
   }
   
 
+
   /* Ripple effect */
 .ripple2 {
+  cursor: pointer;
     background-position: center;
     transition: background 0.8s;
   }
