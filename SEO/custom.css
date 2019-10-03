@@ -44,6 +44,7 @@ margin: 8px 0 0 0;}
 
 .photo img {
     width: 100%; 
+    border-radius: 2px;
  }
   /* /Photo */
 
@@ -119,7 +120,7 @@ p {font-size: 14px}
     }
 
   /* /Photo */
-  .hidden {text-decoration: underline}
+  .hidden {text-decoration: underline; cursor: pointer}
 
 .responsive-wrap {padding: 0 8px 0 8px;}
 
