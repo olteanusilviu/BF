@@ -1,0 +1,66 @@
+
+
+
+body {background-color: black;
+    color: white;
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;}
+
+    .wrap { max-width:706px; 
+      margin-left: auto;
+      margin-right: auto;
+     
+  } 
+
+
+
+
+
+  /* Photo */
+.photo  {
+    background-color: white;
+    padding: 16px;
+    margin-top: 16px;
+    border-radius: 2px;
+
+}
+
+.photo img {
+    width: 100%;
+  
+ }
+
+
+
+
+
+
+
+
+/* ----------------RESPONSIVE---------------- */
+
+@media (max-width: 706px) {    
+
+
+
+    .photo  {
+        background-color: white;
+        padding: 8px;
+        border-radius: 0px;
+        margin-top: 8px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+}
